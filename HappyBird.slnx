@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FlappyBird.Tests/FlappyBird.Tests.csproj" />
+  <Project Path="FlappyBird/FlappyBird.csproj" />
+</Solution>

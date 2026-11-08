@@ -1,0 +1,99 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin GameFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/build:GameFont.spritefont
+
+#begin bird_neutral.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:bird_neutral.png
+
+#begin bird_jump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:bird_jump.png
+
+#begin bird_dead.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:bird_dead.png
+
+#begin background1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:background1.png
+
+#begin pipe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:pipe.png
+
+#begin coin.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:coin.png
+
+#begin blue_neutral.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:blue_neutral.png
+
+#begin blue_jump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:blue_jump.png
+
+#begin blue_dead.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:blue_dead.png
+
+#begin golden_neutral.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:golden_neutral.png
+
+#begin golden_jump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:golden_jump.png
+
+#begin golden_dead.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:golden_dead.png
+
+#begin MenuFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/build:MenuFont.spritefont
+
+#begin CoinSound.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/build:CoinSound.mp3
+
+#begin DeathSound.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/build:DeathSound.mp3
+
+#begin JumpSound.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/build:JumpSound.mp3
